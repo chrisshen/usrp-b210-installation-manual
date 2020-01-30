@@ -75,7 +75,7 @@ https://kb.ettus.com/Building_and_Installing_the_USRP_Open-Source_Toolchain_(UHD
   
   * Select a verson of UHD, usually the latest released version (v3.15.0.0 at 2020/01/30):
   ```bash
-  git checkout v3.15.0.0
+  $ git checkout v3.15.0.0
   ```
   
   * Create a build folder
@@ -104,7 +104,7 @@ https://kb.ettus.com/Building_and_Installing_the_USRP_Open-Source_Toolchain_(UHD
   
   * Finally, make sure that the LD_LIBRARY_PATH environment variable is defined and includes the folder under which UHD was installed. Most commonly, you can add the line below to the end of your $HOME/.bashrc file:
   ```bash
-  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+  $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
   ```
   
   * Open a new terminal for making the change effect, and run
@@ -158,12 +158,12 @@ https://kb.ettus.com/Building_and_Installing_the_USRP_Open-Source_Toolchain_(UHD
   
   7. Simple test without USRP hardware: dialtone test.
   ```bash
-  python $HOME/workarea/gnuradio/gr-audio/examples/python/dial_tone.py
+  $ python $HOME/workarea/gnuradio/gr-audio/examples/python/dial_tone.py
   ```
   
   8. You can also try a GUI-based tool, called GNU Radio Companion (GRC).
   ```bash
-  gnuradio-companion
+  $ gnuradio-companion
   ```
   
 # Configuring USB
@@ -187,8 +187,8 @@ When UHD spawns a new thread, it may try to boost the thread's scheduling priori
 
 To address this issue, non-privileged (non-root) users need to be given special permission to change the scheduling priority. This can be enabled by creating a group `usrp`, adding your user to it, and then appending the line `@usrp - rtprio 99` to the file `/etc/security/limits.conf`.
   ```bash
-   sudo groupadd usrp
-   sudo usermod -aG usrp $USER
+   $ sudo groupadd usrp
+   $ sudo usermod -aG usrp $USER
   ```
  add the line below to the end of the file `/etc/security/limits.conf`
  ```bash
@@ -198,9 +198,3 @@ To address this issue, non-privileged (non-root) users need to be given special 
 You must log out and log back into the account for the settings to take effect. 
 
 In most Linux distributions, a list of groups and group members can be found in the /etc/group file.
-
-  
-
-  
-  
-  
