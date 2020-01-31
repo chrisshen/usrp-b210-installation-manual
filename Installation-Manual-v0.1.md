@@ -12,40 +12,40 @@ https://kb.ettus.com/Building_and_Installing_the_USRP_Open-Source_Toolchain_(UHD
   * Ubuntu 16.04:
 
     ```bash
-    $ sudo apt-get -y install git swig cmake doxygen build-essential libboost-all-dev 
-    libtool libusb-1.0-0 libusb-1.0-0-dev libudev-dev libncurses5-dev libfftw3-bin 
-    libfftw3-dev libfftw3-doc libcppunit-1.13-0v5 libcppunit-dev libcppunit-doc 
-    ncurses-bin cpufrequtils python-numpy python-numpy-doc python-numpy-dbg python-scipy 
-    python-docutils qt4-bin-dbg qt4-default qt4-doc libqt4-dev libqt4-dev-bin python-qt4 
-    python-qt4-dbg python-qt4-dev python-qt4-doc python-qt4-doc libqwt6abi1 libfftw3-bin 
-    libfftw3-dev libfftw3-doc ncurses-bin libncurses5 libncurses5-dev libncurses5-dbg 
-    libfontconfig1-dev libxrender-dev libpulse-dev swig g++ automake autoconf libtool 
-    python-dev libfftw3-dev libcppunit-dev libboost-all-dev libusb-dev libusb-1.0-0-dev 
-    fort77 libsdl1.2-dev python-wxgtk3.0 git-core libqt4-dev python-numpy ccache python-opengl 
-    libgsl-dev python-cheetah python-mako python-lxml doxygen qt4-default qt4-dev-tools 
-    libusb-1.0-0-dev libqwt5-qt4-dev libqwtplot3d-qt4-dev pyqt4-dev-tools python-qwt5-qt4 
-    cmake git-core wget libxi-dev gtk2-engines-pixbuf r-base-dev python-tk liborc-0.4-0 
-    liborc-0.4-dev libasound2-dev python-gtk2 libzmq-dev libzmq1 python-requests python-sphinx 
+    $ sudo apt-get -y install git swig cmake doxygen build-essential libboost-all-dev \
+    libtool libusb-1.0-0 libusb-1.0-0-dev libudev-dev libncurses5-dev libfftw3-bin \
+    libfftw3-dev libfftw3-doc libcppunit-1.13-0v5 libcppunit-dev libcppunit-doc \
+    ncurses-bin cpufrequtils python-numpy python-numpy-doc python-numpy-dbg python-scipy \
+    python-docutils qt4-bin-dbg qt4-default qt4-doc libqt4-dev libqt4-dev-bin python-qt4 \
+    python-qt4-dbg python-qt4-dev python-qt4-doc python-qt4-doc libqwt6abi1 libfftw3-bin \
+    libfftw3-dev libfftw3-doc ncurses-bin libncurses5 libncurses5-dev libncurses5-dbg \
+    libfontconfig1-dev libxrender-dev libpulse-dev swig g++ automake autoconf libtool \
+    python-dev libfftw3-dev libcppunit-dev libboost-all-dev libusb-dev libusb-1.0-0-dev \
+    fort77 libsdl1.2-dev python-wxgtk3.0 git-core libqt4-dev python-numpy ccache python-opengl \
+    libgsl-dev python-cheetah python-mako python-lxml doxygen qt4-default qt4-dev-tools \
+    libusb-1.0-0-dev libqwt5-qt4-dev libqwtplot3d-qt4-dev pyqt4-dev-tools python-qwt5-qt4 \
+    cmake git-core wget libxi-dev gtk2-engines-pixbuf r-base-dev python-tk liborc-0.4-0 \
+    liborc-0.4-dev libasound2-dev python-gtk2 libzmq-dev libzmq1 python-requests python-sphinx \
     libcomedi-dev python-zmq python-setuptools
     ```
 
   * Ubuntu 18.04:
 
     ```bash
-    $ sudo apt-get -y install git swig cmake doxygen build-essential libboost-all-dev 
-    libtool libusb-1.0-0 libusb-1.0-0-dev libudev-dev libncurses5-dev libfftw3-bin 
-    libfftw3-dev libfftw3-doc libcppunit-1.13-0v5 libcppunit-dev libcppunit-doc ncurses-bin 
-    cpufrequtils python-numpy python-numpy-doc python-numpy-dbg python-scipy python-docutils 
-    qt4-bin-dbg qt4-default qt4-doc libqt4-dev libqt4-dev-bin python-qt4 python-qt4-dbg 
-    python-qt4-dev python-qt4-doc python-qt4-doc libqwt6abi1 libfftw3-bin libfftw3-dev 
-    libfftw3-doc ncurses-bin libncurses5 libncurses5-dev libncurses5-dbg libfontconfig1-dev 
-    libxrender-dev libpulse-dev swig g++ automake autoconf libtool python-dev libfftw3-dev 
-    libcppunit-dev libboost-all-dev libusb-dev libusb-1.0-0-dev fort77 libsdl1.2-dev 
-    python-wxgtk3.0 git-core libqt4-dev python-numpy ccache python-opengl libgsl-dev 
-    python-cheetah python-mako python-lxml doxygen qt4-default qt4-dev-tools libusb-1.0-0-dev 
-    libqwt5-qt4-dev libqwtplot3d-qt4-dev pyqt4-dev-tools python-qwt5-qt4 cmake git-core 
-    wget libxi-dev gtk2-engines-pixbuf r-base-dev python-tk liborc-0.4-0 liborc-0.4-dev 
-    libasound2-dev python-gtk2 libzmq-dev libzmq1 python-requests python-sphinx libcomedi-dev 
+    $ sudo apt-get -y install git swig cmake doxygen build-essential libboost-all-dev \
+    libtool libusb-1.0-0 libusb-1.0-0-dev libudev-dev libncurses5-dev libfftw3-bin \
+    libfftw3-dev libfftw3-doc libcppunit-1.13-0v5 libcppunit-dev libcppunit-doc ncurses-bin \
+    cpufrequtils python-numpy python-numpy-doc python-numpy-dbg python-scipy python-docutils \
+    qt4-bin-dbg qt4-default qt4-doc libqt4-dev libqt4-dev-bin python-qt4 python-qt4-dbg \
+    python-qt4-dev python-qt4-doc python-qt4-doc libqwt6abi1 libfftw3-bin libfftw3-dev \
+    libfftw3-doc ncurses-bin libncurses5 libncurses5-dev libncurses5-dbg libfontconfig1-dev \
+    libxrender-dev libpulse-dev swig g++ automake autoconf libtool python-dev libfftw3-dev \
+    libcppunit-dev libboost-all-dev libusb-dev libusb-1.0-0-dev fort77 libsdl1.2-dev \
+    python-wxgtk3.0 git-core libqt4-dev python-numpy ccache python-opengl libgsl-dev \
+    python-cheetah python-mako python-lxml doxygen qt4-default qt4-dev-tools libusb-1.0-0-dev \
+    libqwt5-qt4-dev libqwtplot3d-qt4-dev pyqt4-dev-tools python-qwt5-qt4 cmake git-core \
+    wget libxi-dev gtk2-engines-pixbuf r-base-dev python-tk liborc-0.4-0 liborc-0.4-dev \
+    libasound2-dev python-gtk2 libzmq-dev libzmq1 python-requests python-sphinx libcomedi-dev \
     python-zmq python-setuptools
     ```
 
@@ -119,15 +119,53 @@ https://kb.ettus.com/Building_and_Installing_the_USRP_Open-Source_Toolchain_(UHD
   ```bash
   $ sudo uhd_images_downloader
   ```
-  You may see some successful information: `Images successfully installed to: /usr/local/share/uhd/images`
+  You may see some successful information: `Images successfully installed to: /usr/local/share/uhd/images`.
   
 # Building and Installing GNU Radio from source code
+
+  **Dependencies**
+
+  **Bionic Beaver (18.04)**
+  
+  * GNU Radio version 3.8.x with Python 3 support:
+    ```bash
+    sudo apt install git cmake g++ libboost-all-dev libgmp-dev swig python3-numpy \
+    python3-mako python3-sphinx python3-lxml doxygen libfftw3-dev libcomedi-dev \
+    libsdl1.2-dev libgsl-dev libqwt-qt5-dev libqt5opengl5-dev python3-pyqt5 \
+    liblog4cpp5-dev libzmq3-dev python3-yaml python3-click python3-click-plugins \
+    python3-zmq
+    ```
+
+  * GNU Radio version 3.7.x:
+    ```bash
+    sudo apt install cmake git g++ libboost-all-dev python-dev python-mako \
+    python-numpy python-wxgtk3.0 python-sphinx python-cheetah swig libzmq3-dev \
+    libfftw3-dev libgsl-dev libcppunit-dev doxygen libcomedi-dev libqt4-opengl-dev \
+    python-qt4 libqwt-dev libsdl1.2-dev libusb-1.0-0-dev python-gtk2 python-lxml \
+    pkg-config python-sip-dev 
+    ```
+
+  **Xenial Xerus (16.04)**
+
+  Building GNU Radio 3.8.x is difficult on Ubuntu 16.04 due to various dependency issues (especially due to CMake and Python versions). Please consider using GNU Radio 3.7.x instead.
+
+  * For GNU Radio 3.7.x:
+    ```bash
+    sudo apt-get -y install git-core cmake g++ python-dev swig \
+    pkg-config libfftw3-dev libboost-all-dev libcppunit-dev libgsl0-dev \
+    libusb-dev libsdl1.2-dev python-wxgtk3.0 python-numpy \
+    python-cheetah python-lxml doxygen libxi-dev python-sip \
+    libqt4-opengl-dev libqwt-dev libfontconfig1-dev libxrender-dev \
+    python-sip python-sip-dev python-qt4 python-sphinx libusb-1.0-0-dev \
+    libcomedi-dev libzmq-dev 
+    ```
+
   1. Make a fold and clone gnuradio from Github. The latest version of GNU Radio is 3.8.0.0 now (20200130).
   ```bash
   $ cd ~/usrp
   $ git clone --recursive https://github.com/gnuradio/gnuradio
   $ cd gnuradio
-  $ git checkout 3.8.0.0
+  $ git checkout v3.8.0.0
   $ git submodule update --init --recursive
   ```
   2. Build gnuradio
